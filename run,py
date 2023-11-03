@@ -1,0 +1,6 @@
+import webview
+from program_deteksi_hoax import create_app
+
+server = create_app()
+webview.create_window("Flask example", server)
+webview.start()
